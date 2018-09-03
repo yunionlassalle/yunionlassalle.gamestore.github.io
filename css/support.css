@@ -1,0 +1,113 @@
+/*GENERAL PROPERTIES*/
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+}
+body{
+  position: relative;
+  width: 100%;
+  height: 629px;
+  background-color: rgb(227,227,227);
+}
+
+section{
+  background-color: rgb(227, 227, 227);
+  float: right;
+  width: 80%;
+  height: 450px;
+}
+
+/*----------title---------*/
+.container{
+  background-image: url("../images/background_08.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 520px;
+}
+h1{
+  font-size: 2.5em;
+  text-align: center;
+  padding: 1em;
+  color: rgb(207, 108, 5);
+  text-transform: uppercase;
+  text-shadow: #FFF 0px 0px 5px, #000000 0px 0px 10px,
+  #000000 0px 0px 15px, #000000 0px 0px 20px, #000000
+  0px 0px 30px, #000000 0px 0px 40px, #000000 0px 0px 50px,
+  #000000 0px 0px 75px, -30px -13px 6px rgba(0,0,0,0);
+}
+/*----------FORM---------*/
+div.form{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 60%;
+  height: 240px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 12px;
+}
+form div *{
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 1.2em;
+  display: block;
+  -ms-box-sizing:content-box;
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box;
+  box-sizing:content-box;
+}
+div.left{
+  position: relative;
+  width: 50%;
+  height: 180px;
+  float: left;
+  margin-top: 10px;
+}
+div.right
+{
+  position: relative;
+  width: 50%;
+  height: 180px;
+  float: left;
+  margin-top: 10px;
+}
+div.bottom{
+  position: relative;
+  width: 100%;
+  height: 50px;
+  float: left;
+
+}
+/*elementos del formulario */
+div.left *{
+  float: right;
+  width: 80%;
+}
+div.right *{
+  float: left;
+  width: 80%;
+  height: 150px;
+}
+#enviar{
+  font-size: 2em;
+  position: relative;
+  display: block;
+  margin: 8px auto 0 auto;
+  padding: 4px;
+  border-radius: 15px;
+  width: 100px;
+  background-color: rgb(207, 108, 5);
+  color: #fff;
+  border: 0;
+}
+
+select:required:invalid {
+color: #999;
+}
+option[value=””][disabled] {
+display: none;
+}
+option {
+color: #000;
+}

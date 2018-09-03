@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+}
+
+/*LATERAL BAR*/
+
+header {
+  float: left;
+  position: fixed;
+  width: 20%;
+  height: 100%;
+  background-color: #1e262c;
+  z-index: 999;
+}
+
+header img#logo {
+  display: block;
+  width: 100px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+header h2 {
+  color: rgb(207, 108, 5);
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: normal;
+}
+
+header input[type=text] {
+  width: 90%;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 10px 10px 50px;
+  font-size: 1.5em;
+  box-sizing: border-box;
+  border-radius: 40px;
+  background-color: white;
+  background-image: url("../images/searchicon.png");
+  background-size: 32px;
+  background-position: 10px center;
+  background-repeat: no-repeat;
+}
+
+header input[type=text]:focus {
+  border: 2px solid rgb(207, 108, 5);
+  outline-color: transparent;
+}
+
+/* LOGIN REGISTER BUTTONS*/
+
+header>div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px auto;
+
+}
+
+header>div a {
+  color: rgb(227, 227, 227);
+  font-size: 1.5em;
+  display: block;
+  text-align: center;
+  background: rgba(255, 109, 15, 0.83);
+  margin: 10px 20px;
+  padding: 10px 0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: monospace;
+
+}
+
+header>div a:hover {
+  background: rgba(153, 61, 0, 0.8);
+  box-shadow: 3px 3px 3px black;
+}
+
+header>div a.active {
+  background: rgba(153, 61, 0, 0.8);
+  box-shadow: 1px 1px 1px black;
+}
+
+/*CSS MENU*/
+
+#cssmenu {
+  padding:0;
+  margin: 0;
+  border: 0;
+  line-height: 1;
+  text-align: center;
+  position: relative;
+}
+
+#cssmenu ul, #cssmenu ul li, #cssmenu ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#cssmenu ul {
+  position: relative;
+  z-index: 597;
+  float: left;
+  width: 100%;
+}
+
+#cssmenu ul li {
+  float: none;
+  min-height: 1px;
+  line-height: 1em;
+  position: relative;
+}
+
+#cssmenu ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+
+#cssmenu ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 1px;
+  left: 100.2%;
+  width: 100%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid rgb(145, 145, 145);
+  ;
+}
+
+#cssmenu ul ul li {
+  float: none;
+  font-weight: normal;
+  background: #ffffff;
+  ;
+}
+
+#cssmenu ul ul ul {
+  top: -2px;
+  right: 0;
+  ;
+}
+
+#cssmenu ul li:hover>ul {
+  visibility: visible;
+  ;
+}
+
+/* Custom CSS Styles */
+
+#cssmenu {
+  width: 100%;
+  background: #1e262c;
+  zoom: 1;
+}
+
+#cssmenu * {
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  font-size: 15px;
+}
+
+#cssmenu:before {
+  content: '';
+  display: block;
+}
+
+#cssmenu:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#cssmenu a {
+  display: block;
+  padding: 15px 0;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#cssmenu>ul>li>a {
+  /*border-right: 4px solid #1b9bff;*/
+  color: #ffffff;
+  ;
+}
+
+#cssmenu>ul>li>a:hover {
+  color: #ffffff;
+  ;
+}
+
+#cssmenu>ul>li a.active {
+  background: rgba(255, 255, 255, 0.20);
+  border-left: 4px solid rgb(207, 108, 5);
+}
+
+#cssmenu>ul>li a:hover {
+  background: rgba(255, 255, 255, 0.10);
+}
+
+/* ICON MENU WITH FONT*/
+#cssmenu ul li>a span.fill::after{
+  content: '???';
+  color: transparent;
+}
+#cssmenu ul li>a span.icon:before {
+  position: absolute;
+  top: 50%;
+  left: 70px;
+  margin-top: -12px;
+  font-size: 1.5em;
+  color: rgb(227,227,277);
+}
+
+#cssmenu ul li.has-sub>a:after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -10px;
+}
+
+#cssmenu ul ul li.first {
+  -webkit-border-radius: 0 3px 0 0;
+  -moz-border-radius: 0 3px 0 0;
+  border-radius: 6px 6px 0 0;
+}
+
+#cssmenu ul ul li.last {
+  -webkit-border-radius: 0 0 3px 0;
+  -moz-border-radius: 0 0 3px 0;
+  border-radius: 0 0 6px 6px;
+}
+
+#cssmenu ul ul a {
+  font-size: 15px;
+  color: black;
+}
+
+#cssmenu ul ul a:hover {
+  color: black;
+}
+
+#cssmenu ul li.last {
+  border-bottom: 0.2px solid rgb(79, 79, 79);
+}
+
+#cssmenu ul ul li:hover>a {
+  background: rgba(0, 0, 0, 0.20);
+  color: #ffffff;
+}
