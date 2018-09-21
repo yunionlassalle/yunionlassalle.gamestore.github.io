@@ -15,12 +15,6 @@ body {
   background-color: rgb(227, 227, 227);
 }
 
-section {
-  background-color: rgb(227, 227, 227);
-  float: right;
-  width: 80%;
-}
-
 /* TITULO Y DATOS SUPERIORES*/
 
 .container {

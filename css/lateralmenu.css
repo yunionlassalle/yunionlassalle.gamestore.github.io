@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +21,7 @@ header {
 
 header img#logo {
   display: block;
-  width: 100px;
+  width: 80px;
   padding: 0;
   margin: 0 auto;
 }
@@ -36,9 +37,9 @@ header h2 {
 header input[type=text] {
   width: 90%;
   display: block;
-  margin: 10px auto;
-  padding: 10px 10px 10px 50px;
-  font-size: 1.5em;
+  margin: 0 auto 5px auto;
+  padding: 8px 8px 8px 50px;
+  font-size: 1.2em;
   box-sizing: border-box;
   border-radius: 40px;
   background-color: white;
@@ -55,21 +56,14 @@ header input[type=text]:focus {
 
 /* LOGIN REGISTER BUTTONS*/
 
-header>div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  margin-top: 10px auto;
 
-}
-
-header>div a {
+#login a {
   color: rgb(227, 227, 227);
-  font-size: 1.5em;
+  font-size: 1.0em;
   display: block;
   text-align: center;
   background: rgba(255, 109, 15, 0.83);
-  margin: 10px 20px;
+  margin: 10px 40px;
   padding: 10px 0;
   border-radius: 5px;
   text-decoration: none;
@@ -77,12 +71,12 @@ header>div a {
 
 }
 
-header>div a:hover {
+#login a:hover {
   background: rgba(153, 61, 0, 0.8);
   box-shadow: 3px 3px 3px black;
 }
 
-header>div a.active {
+#login a.active {
   background: rgba(153, 61, 0, 0.8);
   box-shadow: 1px 1px 1px black;
 }
@@ -90,7 +84,7 @@ header>div a.active {
 /*CSS MENU*/
 
 #cssmenu {
-  padding:0;
+  padding: 0;
   margin: 0;
   border: 0;
   line-height: 1;
@@ -98,7 +92,9 @@ header>div a.active {
   position: relative;
 }
 
-#cssmenu ul, #cssmenu ul li, #cssmenu ul ul {
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -181,7 +177,7 @@ header>div a.active {
 
 #cssmenu a {
   display: block;
-  padding: 15px 0;
+  padding: 12px 0;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
@@ -208,17 +204,18 @@ header>div a.active {
 }
 
 /* ICON MENU WITH FONT*/
-#cssmenu ul li>a span.fill::after{
+#cssmenu ul li>a span.fill::after {
   content: '???';
   color: transparent;
 }
+
 #cssmenu ul li>a span.icon:before {
   position: absolute;
   top: 50%;
   left: 70px;
   margin-top: -12px;
   font-size: 1.5em;
-  color: rgb(227,227,277);
+  color: rgb(227, 227, 277);
 }
 
 #cssmenu ul li.has-sub>a:after {
