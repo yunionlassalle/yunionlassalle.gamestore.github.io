@@ -1,5 +1,8 @@
+section{
+  padding-bottom: 40px;
+}
 
-section article p {
+section p {
   padding: 1em 3em 2em 3em;
   font-size: 1.5em;
   text-align: justify;

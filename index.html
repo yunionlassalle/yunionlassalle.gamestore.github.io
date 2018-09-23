@@ -9,6 +9,22 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="fonts/style.css">
   <title>YuniStation - Inicio</title>
+  <script>
+
+    function calcHeight() 
+    { 
+    // reiniciar alto del iframe
+    document.getElementById('content').height=50;
+    //find the height of the internal page 
+    var the_height=document.getElementById('content').contentWindow.document.body.scrollHeight; 
+
+    //change the height of the iframe 
+    document.getElementById('content').height=the_height; 
+
+    //push footer to bottom
+    document.getElementsByTagName("FOOTER")[0].style.top = the_height;
+    } 
+  </script>
 </head>
 
 <body>
@@ -22,18 +38,25 @@
     <!-- MENU NAV //-->
     <nav id="cssmenu">
       <ul>
-        <li><a class="active" href="home.html" target="content"><span class="icon-home icon"><span class="fill"></span></span><span>Inicio</span></a></li>
-        <li class='has-sub'><a href="consoles.html" target="content"><span class="icon-pacman icon"><span class="fill"></span><span>Juegos</span></a>
+        <li><a class="active" href="home.html" target="content"><span class="icon-home icon"><span class="fill"></span></span><span>
+              Inicio</span></a></li>
+        <li class='has-sub'><a href="consoles.html" target="content"><span class="icon-pacman icon"><span class="fill"></span><span>
+                Juegos</span></a>
           <ul>
-            <li class="first"><a href="game_01.html" target="content"><span>Juegos Playstation</span></a></li>
-            <li><a href="game_02.html" target="content"><span>Juegos Xbox</span></a></li>
-            <li class="last"><a href="game_03.html" target="content"><span>Juegos PC</span></a></li>
+            <li class="first"><a href="game_01.html" target="content"><span>
+                  Juegos Playstation</span></a></li>
+            <li><a href="game_02.html" target="content"><span>
+                  Juegos Xbox</span></a></li>
+            <li class="last"><a href="game_03.html" target="content"><span>
+                  Juegos PC</span></a></li>
           </ul>
         </li>
-        <li><a href="news.html" target="content"><span class="icon-news icon"><span class="fill"></span><span>Noticias</span></a></li>
-        <li><a href="support.html" target="content"><span class="icon-wrench icon"><span class="fill"></span><span>Soporte<span></a></li>
-        <li class="last"><a href="about.html" target="content"><span class="icon-question icon"><span class="fill"></span><span>Acerca
-                de</span></a></li>
+        <li><a href="news.html" target="content"><span class="icon-news icon"><span class="fill"></span><span>
+                Noticias</span></a></li>
+        <li><a href="support.html" target="content"><span class="icon-wrench icon"><span class="fill"></span><span>
+                Soporte<span></a></li>
+        <li class="last"><a href="about.html" target="content"><span class="icon-question icon"><span class="fill"></span><span>
+                Acerca de</span></a></li>
         <li>
           <!-- MENU LOGIN BTN //-->
           <div id="login">
@@ -47,14 +70,16 @@
   </header>
   <section>
     <!--  CONTENIDO -->
-    <iframe src="home.html" frameborder="0" id="content" name="content"></iframe>
+    <iframe src="home.html" frameborder="0" id="content" name="content" onload="calcHeight()" scrolling="NO"></iframe>
   </section>
+
   <footer>
     <p>
       <span>Yunion Cesar Lassalle Rodriguez<br></span> Curso Jovenes a Programar "Plan Ceibal" 2018<br> Seller:
       Electronic Arts Inc., Salerno Street, Maldonado<br>
     </p>
   </footer>
+
 </body>
 
 </html>
