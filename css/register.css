@@ -42,10 +42,17 @@ body {
 }
 
 /*home button*/
+<<<<<<< HEAD
 .botones {
   display: flex;
   justify-content: space-around;
   margin: 0.8m;
+=======
+.botones{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8em 0;
+>>>>>>> fb84ef1c6ab8b20995a3d5a0561e6960e0eb9f0f
   padding: 0;
   width: 100%;
 }
@@ -56,12 +63,20 @@ body {
   font-size: 1.5em;
   text-align: center;
   margin: 0;
+<<<<<<< HEAD
   padding: 0.6vw;
+=======
+  padding: 0.5em;
+>>>>>>> fb84ef1c6ab8b20995a3d5a0561e6960e0eb9f0f
   background: rgba(255, 109, 15, 0.83);
   box-shadow: 2px 2px 2px black;
   border-radius: 5px;
   text-decoration: none;
+<<<<<<< HEAD
   font-family: monospace;
+=======
+  font-family: monospace; 
+>>>>>>> fb84ef1c6ab8b20995a3d5a0561e6960e0eb9f0f
 }
 
 .btn span {

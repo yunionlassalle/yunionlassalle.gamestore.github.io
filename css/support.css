@@ -9,8 +9,13 @@
 
 body {
   position: relative;
+<<<<<<< HEAD
   width: 100%;
   background-color: rgb(227, 227, 227);
+=======
+  width: 100%;;
+  background-color: rgb(227,227,227);
+>>>>>>> fb84ef1c6ab8b20995a3d5a0561e6960e0eb9f0f
 }
 
 /*----------title---------*/
