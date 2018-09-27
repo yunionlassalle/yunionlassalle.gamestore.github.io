@@ -204,15 +204,16 @@ header input[type=text]:focus {
 }
 
 /* ICON MENU WITH FONT*/
-#cssmenu ul li>a span.fill::after {
-  content: '???';
-  color: transparent;
+
+#cssmenu ul li>a,
+#cssmenu ul li>a span {
+  position: relative;
 }
 
-#cssmenu ul li>a span.icon:before {
+#cssmenu i {
   position: absolute;
   top: 50%;
-  left: 70px;
+  left: 1vw;
   margin-top: -12px;
   font-size: 1.5em;
   color: rgb(227, 227, 277);
@@ -254,4 +255,75 @@ header input[type=text]:focus {
 #cssmenu ul ul li:hover>a {
   background: rgba(0, 0, 0, 0.20);
   color: #ffffff;
+}
+
+/* RESPONSIVE*/
+
+/* less than small screen */
+@media screen and (max-width: 992px) {
+  #login a {
+    margin: 10px 30px;
+  }
+}
+
+/* less than small screen */
+@media screen and (max-width: 768px) {
+
+  #login a {
+    margin: 10px 20px;
+    font-size: 0.8em;
+  }
+
+  #cssmenu i {
+    display: none;
+  }
+
+}
+
+/*  less than extra small screen*/
+@media screen and (max-width: 576px) {
+
+  header {
+    float: left;
+    position: sticky;
+    width: 100%;
+    height: auto;
+  }
+
+  #login a {
+    margin: 10px 80px;
+    font-size: 1em;
+  }
+
+  #cssmenu i {
+    display: block;
+    left: 2vw;
+  }
+
+  #cssmenu ul ul {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border: none;
+    ;
+  }
+
+  #cssmenu ul li:hover>ul {
+    position: relative;
+    visibility: visible;
+    ;
+  }
+
+  #cssmenu ul ul li {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+    margin: 0;
+    padding: 0;
+  }
+
 }

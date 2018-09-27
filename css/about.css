@@ -9,20 +9,19 @@
 body {
   position: relative;
   width: 100%;
-  height: 629px;
   background-color: rgb(227, 227, 227);
 }
 
 section article p {
   padding-bottom: 2em;
-  font-size: 1.5em;
+  font-size: 1.3vw;
   text-align: center;
   color: rgb(227, 227, 277);
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 article h1 {
-  font-size: 2.5em;
+  font-size: 2vw;
   text-align: center;
   padding: 1em 1em 0.8em 1em;
   margin: 0 auto;
@@ -33,8 +32,23 @@ article h1 {
 }
 
 article {
-  height: 520px;
+  height: 550px;
   background-image: url("../images/background_01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* RESPONSIVE */
+
+/*  less than extra small screen*/
+@media screen and (max-width: 576px) {
+
+  section article p {
+    font-size: 3vw;
+  }
+
+  article h1 {
+    font-size: 6vw;
+  }
+
 }
