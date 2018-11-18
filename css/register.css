@@ -42,10 +42,15 @@ body {
 }
 
 /*home button*/
+
 .botones {
   display: flex;
   justify-content: space-around;
   margin: 0.8m;
+.botones{
+  display: flex;
+  justify-content: space-between;
+  margin: 0.8em 0;
   padding: 0;
   width: 100%;
 }
