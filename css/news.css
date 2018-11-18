@@ -12,6 +12,8 @@ body {
   background-color: rgb(227, 227, 227);
 }
 
+section{
+padding-bottom: 80px;
 }
 
 section article p {
