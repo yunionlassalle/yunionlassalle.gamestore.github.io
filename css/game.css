@@ -40,7 +40,6 @@ ul {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -59,9 +58,6 @@ ul {
 .game:hover {
   transition: all 1s;
   border: 6px solid gray;
-}
-
-  margin-bottom: 10px;
 }
 
 .game a {
@@ -87,6 +83,7 @@ img.img {
   background-color: rgb(0, 0, 0, 0.5);
   text-align: center;
   justify-content: center;
+
 }
 
 .genre,
@@ -105,9 +102,6 @@ img.img {
   float: right; 
   padding: 11.5px 10px;
   /* background-color: rgb(0, 0, 0, 0.5); */
-  float: right;
-  padding: 12px 10px;
-  background-color: rgb(0, 0, 0, 0.5);
 }
 
 .favorite input[type=checkbox] {
@@ -126,10 +120,6 @@ img.img {
 
 .favorite input[type=checkbox]:checked+label {
   display: flex;
-  padding: 0 0 0 0px;
-}
-
-.favorite input[type=checkbox]:checked+label {
   background: url("../images/star-orange.svg") no-repeat;
   background-size: cover;
   height: 32px;
@@ -137,18 +127,6 @@ img.img {
   padding: 0;
 }
 
-
-.game .price {
-  position: absolute;
-  top: 0;
-  font-size: 2em !important;
-  background-color: rgba(255, 109, 15, 0.83);
-  padding: 2px 10px;
-  border-radius: 0 0px 10px 0;
-}
-
-  padding: 0 0 0 0px;
-}
 
 .game .price {
   position: absolute;
@@ -185,20 +163,4 @@ img.img {
     flex-basis: 100%;
   }
 
-}
-
-/*  less than extra small screen*/
-@media screen and (max-width: 576px) {
-
-  .game {
-    flex-basis: 100%;
-  }
-
-}
-
-.description {
-  clear: both;
-  text-align: justify;
-  padding: 5px 15px 10px 15px !important;
-  font-size: 1.2em !important;
 }
