@@ -1,0 +1,112 @@
+{
+    "console": [{
+            "id": 0,
+            "name": "Playstation 4",
+            "descripcion": "PlayStation®4 se ha diseñado desde su concepción para garantizar que los creadores de videojuegos puedan dar rienda suelta a su imaginación y desarrollar los mejores juegos y las experiencias más innovadoras que se hayan visto nunca. <br> DUALSHOCK®4 presenta innovaciones para brindar experiencias de juego de mayor inmersión.",
+            "game": [{
+                    "id": 0,
+                    "img": "images/game_01_01.jpg",
+                    "name": "Shadow of the Tomb Raider - Croft Edition",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                },
+                {
+                    "id": 1,
+                    "img": "images/game_01_01.jpg",
+                    "name": "PLAYGAME",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                },
+                {
+                    "id": 2,
+                    "img": "images/game_01_01.jpg",
+                    "name": "PLAYGAME3",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Xbox One X",
+            "descripcion": "La consola más potente del mundo. <br> <br> Con 40 % más de potencia que cualquier otra consola, podrás disfrutar de un juego en 4K verdaderamente envolvente. Los juegos simplemente se reproducen mejor en Xbox One X. <br> Diseñado para cada ángulo. No importa cómo lo veas, Xbox One X es elegante y distintivo.",
+            "game": [{
+                    "id": 0,
+                    "img": "images/game_01_01.jpg",
+                    "name": "Shadow of the Tomb Raider - Croft Edition",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                },
+                {
+                    "id": 1,
+                    "img": "images/game_01_01.jpg",
+                    "name": "PLAYGAME",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                },
+                {
+                    "id": 2,
+                    "img": "images/game_01_01.jpg",
+                    "name": "PLAYGAME3",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                }
+            ]
+        },
+        {
+
+            "id": 2,
+            "name": "PC for Gaming",
+            "descripcion": "Todo el mundo da por hecho que el modelo de ciclo de consolas tradicional ha muerto. Andrew House, CEO de Sony Interactive Entertainment, dijo lo siguiente en una entrevista para The Guardian: «Existe un punto en la mitad del ciclo de vida de las consolas donde, los jugadores que buscan una mejor experiencia gráfica, comenzarían a migrar hacia el PC».",
+            "game": [{
+                    "id": 0,
+                    "img": "images/game_01_01.jpg",
+                    "name": "PC GAME",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                },
+                {
+                    "id": 1,
+                    "img": "images/game_01_01.jpg",
+                    "name": "PC GAME",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                },
+                {
+                    "id": 2,
+                    "img": "images/game_01_01.jpg",
+                    "name": "PC GAME",
+                    "favorite": 10,
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+﻿{
+    "console": [{
+            "id": 0,
+            "name": "Playstation 4",
+            "descripcion": "PlayStation®4 se ha diseñado desde su concepción para garantizar que los creadores de videojuegos puedan dar rienda suelta a su imaginación y desarrollar los mejores juegos y las experiencias más innovadoras que se hayan visto nunca. <br> DUALSHOCK®4 presenta innovaciones para brindar experiencias de juego de mayor inmersión.",
+            "game": [{
+                    "id": 0,
+                    "img": 2,
+                    "name": "Shadow of the Tomb Raider - Croft Edition",
+                    "ratings": [{
+                        "score": 4,
+                        "count": 89
+                    }],
+                    "genre": "Aventura | Acción",
+                    "year": "Sep 12, 2018",
+                    "price": "$29.99",
+                    "description": "As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be.",
+                    "long_description": "Pre-order Details: <br> <br> Pre-order and receive a bonus after checking out: <br> <br> SHADOW OF THE TOMB RAIDER PS4 THEME - PRE-ORDER THEME <br> <br> As Lara Croft races to save the world from a Maya apocalypse, she must become the Tomb Raider she is destined to be. <br> <br> The Croft edition includes the game itself, along with all of the items listed below: - 48H early access* - Additional Skills Booster Pack - PS4™ Theme* - Season Pass - 3 additional weapons & outfits - Digital OST *Pre-Orders Only Play on 09/12/2018 12am Eastern Time CANCELLATIONS AND REFUNDS ARE NOT AVAILABLE EXCEPT WHERE REQUIRED BY LAW. Experience Lara Croft’s defining moment as she becomes the Tomb Raider. In Shadow of the Tomb Raider, Lara must master a deadly jungle, overcome terrifying tombs, and persevere through her darkest hour. <br> <br> As she races to save the world from a Maya apocalypse, Lara must become the Tomb Raider she is destined to be. Survive and Thrive: Master the jungle to survive. Explore underwater environments filled with crevasses and deep tunnel systems. Become One With the Jungle: Lara must use the jungle to her advantage to strike suddenly and disappear like a jaguar, instilling fear in her enemies. <br> <br> Discover Brutal Tombs: Terrifying tombs, filled with deadly puzzles, require advanced traversal techniques to be accessed. Uncover Living History: Discover a hidden city and explore the biggest Tomb Raider hub ever. <br> 1 player DUALSHOCK®4 Software subject to license (us.playstation.com/softwarelicense). Online features require an account and are subject to terms of service and applicable privacy policy (playstationnetwork.com/terms-of-service & playstationnetwork.com/privacy-policy). <br> <br> One-time license fee for play on account’s designated primary PS4™ system and other PS4™ systems when signed in with that account. SHADOW OF THE TOMB RAIDER © 2018 Square Enix Limited. Developed by Eidos Interactive Corporation and Crystal Dynamics. <br> <br> All rights reserved. EIDOS-MONTRÉAL, CRYSTAL DYNAMICS, SHADOW OF THE TOMB RAIDER and TOMB RAIDER are registered trademarks or trademarks of Square Enix Limited. <br> SQUARE ENIX and the SQUARE ENIX logo are registered trademarks or trademarks of Square Enix Holdings Co., Ltd. All other trademarks are the property of their respective owners."
+                },
+                {
+                    "id": 1,
+                    "img": 2,
+                    "name": "Middle-Earth™: Shadow of War",
+                    "ratings": [{
+                        "score": 4,
+                        "count": 37
+                    }],
+                    "genre": "RPG",
+                    "year": "Aug 28, 2018",
+                    "price": "$29.99",
+                    "description": "Experience an epic open-world brought to pfe by the award-winning Nemesis System. Forge a new Ring of Power, conquer Fortresses in massive battles and dominate Mordor with your personal Orc army.</p>",
+                    "long_description": "Description <br> <br> Experience an epic open-world brought to life by the award-winning Nemesis System. Forge a new Ring of Power, conquer Fortresses in massive battles and dominate Mordor with your personal Orc army in the Definitive Edition of Middle-earth™: Shadow of War™. <br> The Definitive Edition includes all downloadable content: <br> <br> • Desolation of Mordor Story Expansion <br> • Blade of Galadriel Story Expansion <br> • Slaughter Tribe Nemesis Expansion <br> • Outlaw Tribe Nemesis Expansion Nemesis Expansions include a new Orc Tribe featuring new missions, enemies, followers, abilities, weapons, Fortress and wilderness updates, and a Legendary Gear Set. Story Expansions introduce a new playable character & abilities, story campaigns, side missions, enemies, allies & more. <br> <br>1 player DUALSHOCK®4 Software subject to license (us.playstation.com/softwarelicense). <br> <br> Online features require an account and are subject to terms of service and applicable privacy policy (playstationnetwork.com/terms-of-service & playstationnetwork.com/privacy-policy). <br> <br> One-time license fee for play on account’s designated primary PS4™ system and other PS4™ systems when signed in with that account. MIDDLE-EARTH: SHADOW OF WAR software © 2018 Warner Bros. <br> <br> Entertainment Inc Developed by Monolith Studios. © 2018 New Line Productions, Inc. All The Lord of the Rings content other than content from the New Line films © 2018 The Saul Zaentz Company d/b/a Middle-earth Enterprises ('SZC'). <br> Middle-earth: Shadow of War, The Lord of the Rings and the names of the characters, items, events and places therein are trademarks of SZC under license to WB Games Inc. MONOLITH LOGO, WB GAMES LOGO, WB SHIELD: ™ & © Warner Bros. Entertainment Inc. (s18)"
+                },
+                {
+                    "id": 2,
+                    "img": 2,
+                    "name": "Crash Bandicoot™ N. Sane Trilogy",
+                    "ratings": [{
+                        "score": 5,
+                        "count": 63
+                    }],
+                    "genre": "Plataformas",
+                    "year": "Jun 30, 2017",
+                    "price": "$39.99",
+                    "description": "Your favourite marsupial, Crash Bandicoot™, is back! He's enhanced, entranced & ready-to-dance with the N. Sane Trilogy game collection. Now you can experience Crash Bandicoot™ pike never before.",
+                    "long_description": "<p>Description <br><br> Your favourite marsupial, Crash Bandicoot™, is back! He's enhanced, entranced & ready-to-dance with the N. Sane Trilogy game collection. <br> Now you can experience Crash Bandicoot™ like never before. Spin, jump, wump and repeat as you take on the epic challenges and adventures through the three games that started it all, Crash Bandicoot™, Crash Bandicoot™ 2: Cortex Strikes Back and Crash Bandicoot™: Warped. <br> <br> Relive all your favourite Crash moments in their fully-remastered graphical glory and get ready to put some UMPH in your WUMP! <br> Software subject to license (us.playstation.com/softwarelicense). <br><br> Online features require an account and are subject to terms of service and applicable privacy policy (playstationnetwork.com/terms-of-service & playstationnetwork.com/privacy-policy). <br> <br> One-time license fee for play on account’s designated primary PS4™ system and other PS4™ systems when signed in with that account. © 2017 Activision Publishing, Inc. ACTIVISION and CRASH BANDICOOT are trademarks of Activision Publishing, Inc.</p>"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Xbox One X",
+            "descripcion": "La consola más potente del mundo. <br> <br> Con 40 % más de potencia que cualquier otra consola, podrás disfrutar de un juego en 4K verdaderamente envolvente. Los juegos simplemente se reproducen mejor en Xbox One X. <br> Diseñado para cada ángulo. No importa cómo lo veas, Xbox One X es elegante y distintivo.",
+            "game": [{
+                    "id": 0,
+                    "img": 2,
+                    "name": "Just Cause 4",
+                    "ratings": [{
+                        "score": 3,
+                        "count": 46
+                    }],
+                    "genre": "Aventura | Acción",
+                    "year": "December 4, 2018",
+                    "price": "$68.99",
+                    "description": "Rogue agent Rico Rodriguez journeys to Solis, a huge South American world home of conflict, oppression and extreme weather conditions. Strap into your wingsuit, equip your fully customizable grappling hook, and get ready to bring the thunder!",
+                    "long_description": "Game details <br> <br> Welcome to Solis, a huge South American world home of conflict, oppression and extreme weather conditions. Experience for the first time in a sandbox game towering tornadoes and tropical lightning storms, taking the iconic Just Cause action to insane new heights. <br> <br> In Just Cause 4, rogue agent Rico Rodriguez lands in Solis to hunt down the truth about his past, at any cost. Strap into your wingsuit, equip your fully customizable grappling hook, and get ready to bring the thunder! <br> <br> HDR: HDR functionality available with supported games and TVs. <br> <br> Xbox One X Enhanced: Enhanced features for Xbox One X subject to release of a content update. Games information at xbox.com/enhanced."
+                },
+                {
+                    "id": 1,
+                    "img": 2,
+                    "name": "Resident Evil 2 Remastered",
+                    "ratings": [{
+                        "score": 5,
+                        "count": 99
+                    }],
+                    "genre": "Aventura | Acción",
+                    "year": "January 1, 2019",
+                    "price": "$42.99",
+                    "description": "A deadly virus engulfs the residents of Raccoon City in September of 1998, plunging the city into chaos as flesh eating zombies roam the streets for survivors.",
+                    "long_description": "Digital pre-order bonus: <br> - Deluxe Weapon: \"Samurai Edge - Chris Model\" <br> - Deluxe Weapon: \"Samurai Edge - Jill Model\" <br> <br> The Deluxe Edition contains the main game and the Extra DLC Pack which includes the following items: <br> -Leon Costume: \"Arklay Sheriff\" <br> -Leon Costume: \"Noir\" <br> -Claire Costume: \"Military\" <br> -Claire Costume: \"Noir\" <br> -Claire Costume: \"Elza Walker\" <br> -Deluxe Weapon: \"Samurai Edge - Albert Model\" <br> -\"Original Ver.\" Soundtrack Swap <br> <br> A deadly virus engulfs the residents of Raccoon City in September of 1998, plunging the city into chaos as flesh eating zombies roam the streets for survivors. <br> An unparalleled adrenaline rush, gripping storyline, and unimaginable horrors await you. <br> Witness the return of Resident Evil 2."
+                },
+                {
+                    "id": 2,
+                    "img": 2,
+                    "name": "FIFA 2019",
+                    "ratings": [{
+                        "score": 4,
+                        "count": 102
+                    }],
+                    "genre": "Deportes",
+                    "year": "Sep 28, 2018",
+                    "price": "$59.99",
+                    "description": "FIFA 19 delivers a champion-caliber experience on and off the pitch. Led by the prestigious UEFA Champions League, FIFA 19 offers enhanced gameplay features that allow you to control the pitch in every moment, and provides new and unrivaled ways to play",
+                    "long_description": "Champions Rise in FIFA 19 Powered by Frostbite™*, EA SPORTS™ FIFA 19 delivers a champion-caliber experience on and off the pitch. Led by the prestigious UEFA Champions League, FIFA 19 offers enhanced gameplay features that allow you to control the pitch in every moment, and provides new and unrivaled ways to play, including a dramatic finale to the story of Alex Hunter in The Journey: Champions, a new mode in the ever-popular FIFA Ultimate Team™, and more. <br><br> Game details <br><br> Powered by Frostbite™*, EA SPORTS™ FIFA 19 delivers a champion-caliber experience on and off the pitch. Led by the prestigious UEFA Champions League, FIFA 19 offers enhanced gameplay features that allow you to control the pitch in every moment, and provides new and unrivaled ways to play, including a dramatic finale to the story of Alex Hunter in The Journey: Champions, a new mode in the ever-popular FIFA Ultimate Team™, and more. <br> 4K: 4K Ultra HD not available on Xbox One or Xbox One S consoles. <br> HDR: HDR functionality available with supported games and TVs. <br><br> Xbox One X Enhanced: Enhanced features for Xbox One X subject to release of a content update. Games information at xbox.com/enhanced."
+                }
+            ]
+        },
+        {
+
+            "id": 2,
+            "name": "PC for Gaming",
+            "descripcion": "Todo el mundo da por hecho que el modelo de ciclo de consolas tradicional ha muerto. Andrew House, CEO de Sony Interactive Entertainment, dijo lo siguiente en una entrevista para The Guardian: «Existe un punto en la mitad del ciclo de vida de las consolas donde, los jugadores que buscan una mejor experiencia gráfica, comenzarían a migrar hacia el PC».",
+            "game": [{
+                    "id": 0,
+                    "img": 2,
+                    "name": "World of Warcraft: Battle for Azeroth",
+                    "ratings": [{
+                        "score": 3,
+                        "count": 44
+                    }],
+                    "genre": "MMO | RPG",
+                    "year": "August 14, 2018",
+                    "price": "$32.99",
+                    "description": "Azeroth paid a terrible price to end the apocalyptic march of the Legion's crusade - but even as the world's wounds are tended, it is the shattered trust between the Alpance and Horde that may prove hardest to mend.",
+                    "long_description": "Synopsis <br><br> Azeroth paid a terrible price to end the apocalyptic march of the Legion's crusade - but even as the world's wounds are tended, it is the shattered trust between the Alliance and Horde that may prove hardest to mend. As this age-old conflict reignites, gather your allies and champion your faction's cause - for Azeroth's future will be forged in the fires of war. <br><br> World of Warcraft®: Battle for Azeroth™ servers will go live August 13, 2018 at 3:00PM PDT. For more information on server go-live times, please visit: https://worldofwarcraft.com/en-us/news/21849061/battle-for-azeroth-one-launch-to-rule-them-all <br><br> Features <br><br> - Enter World Divided <br> - Experience the relentless conflict at the heart of the Warcraft saga. Quest to level 120, play through six new zones filled with new World quests, new World bosses, new raids and more. <br>- You determine whether the Horde or Alliance will shape Azeroth's future. <br> - Recruit Allied Races <br> - Explore Azeroth as one of six new playable Allied Races, including four you've encountered in your campaign against the Legion. <br> - Embark on a quest to earn their favor and unlock each race, adding their strength to your faction. Create a new character and complete the full leveling experience to earn a distinctive Heritage Armor set. <br> - Plunder uncharted islands <br> - Set sail for the previously unmapped isles of Azeroth. Battle in groups of three as you race against cunning rival intruders or enemy players to collect the island's resources. <br> - Constantly evolving challenges await as you traverse frozen landscapes near Northrend, open the mysterious gates of an abandoned Gilnean castle, navigate a war between elementals and more. <br> - Storm the Warfronts <br>- Head to the front lines and take part in a large-scale 20-player cooperative Warfront to claim a key strategic location. <br> - Build up your faction's forces, lead the charge as your troops lay siege to the objective, and battle the fight against enemy commanders as they make their last stand in this new PvE mode inspired by classic Warcraft RTS battles. <br> - Infuse armor with titanic might <br> -Take control of the Heart of Azeroth, a legendary neck piece entrusted to you by Magni Bronzebeard. <br> - Imbue it with Azerite, an invaluable resource that's emerged in the Legion's wake, to customize your armor with new powers and traits. <br> - Includes level 110 character boost <br> -Enter the raging conflict between the Horde and the Alliance prepared to survive on the front lines of a vicious new war. <br>"
+                },
+                {
+                    "id": 1,
+                    "img": 2,
+                    "name": "Battlefield V",
+                    "ratings": [{
+                        "score": 4,
+                        "count": 72
+                    }],
+                    "genre": "First Person Shooter",
+                    "year": "Octuber 19, 2018",
+                    "price": "$47.99",
+                    "description": "Deploy early into an unprecedented take on WW2. Pre-order Battlefield V and get the Enpster Offer which gives you early access to the Battlefield V open beta. Pre-ordering also gives you in-game benefits.",
+                    "long_description": "Synopsis <br><br> Deploy early into an unprecedented take on WW2. Pre-order Battlefield V and get the Enlister Offer which gives you early access to the Battlefield V open beta. Pre-ordering also gives you in-game benefits, such as soldier customization options and access to special assignments starting at launch week. Enter mankind's greatest conflict with Battlefield V as the series goes back to its roots. Take on physical, all-out multiplayer with your squad in vast Grand Operations and cooperative Combined Arms modes, or witness human drama set against global combat in single-player War Stories. As you fight in epic, unexpected locations across the globe, enjoy a rich and immersive battlefield. <br> <br> Features <br><br> Battlefield V pre-order Enlister Offer highlights*: <br> Early access to the Battlefield V beta - Try Battlefield V beforehand through early access to the open beta. Be one of the first on the front lines, and witness Battlefield and WW2 as you've never seen before <br> Paratrooper outfit - At launch, choose one of eight special soldier sets available in Battlefield V and customize your troops <br> Special assignments - Starting on launch week, earn rewards and get an edge over the competition by completing special assignments <br> Immediate access to five Battlefield 1 weapons - Ready for use in Battlefield 1, unlock five of the Great War's modern weapons, and bridge the technological gap between the two world wars <br> <br> Battlefield V (main game) highlights: <br> World War 2 as you've never seen before - Take the fight to unexpected but crucial moments of the war as Battlefield goes back to where it all began <br> Multiplayer in the chaos of all-out war - Lead your company in all-out multiplayer with new experiences, such as the massive Grand Operations mode. Take on classic modes, such as Conquest, or squad up with friends in cooperative Combined Arms <br> Physical battlefield - Maneuver through the battlefield using a new soldier move set, fortifications, and mobile tools of destruction <br> Play untold war stories - Witness human drama set against global combat in single-player War Stories <br> Tides of war - Embark on a journey where new content drops continuously transport you and your company to a huge variety of key WW2 locations, where new battlefields and gear await <br> For one player and multiplayer support <br> * Requires Battlefield 1 for applicable platform (sold separately)."
+                },
+                {
+                    "id": 2,
+                    "img": 2,
+                    "name": "The Sims 4",
+                    "ratings": [{
+                        "score": 2,
+                        "count": 30
+                    }],
+                    "genre": "Simulation",
+                    "year": "Sep 2, 2014",
+                    "price": "$25.99",
+                    "description": "In The Sims 3, you got the opportunity to throw open the doors and explore the neighborhood - well in The Sims 4, it's time to look within the mind, body and heart of your Sims for an amazingly rich and incredibly lifelike story that you won't forget.",
+                    "long_description": "Synopsis <br> Enjoy the power to create and control people in a virtual world with The Sims 4. Customize your Sims' appearances and personalities. Build them the perfect home, choosing your favorite design and décor options. Create relationships with other Sims; let them pursue careers and develop skills. It's up to you who your Sims will be and the direction each one's story will take. <br> This item cannot be returned or refunded, please visit Best Buy Return Policy to learn more. <br> <br> Features <br> Create your Sims. Create and play with one or multiple Sims. Customize everything about them from body shape to ethnicity and hairstyles to accessories <br> Give them personality traits and figure out their aspiration in life. Every detail helps to make your Sims unique, fascinating people <br> Build your Sims the perfect home. Everything is up to you, from the house's location to furnishings. Control its interior and exterior design, landscape and decor <br> You can even add features like pools and basements. Need a little inspiration? Check out the curated, Styled Rooms that can easily be added to your game (requires The Sims 4 game update) <br> <br> Explore beautiful game worlds. Your Sims will have plenty of vibrant communities and interesting venues to explore. Let them travel between game worlds experiencing everything each location has to offer"
+                }
+            ]
+        }
+    ]
+}

@@ -7,20 +7,21 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link id="gamecss" rel="stylesheet" type="text/css" href="css/game.css">
   <link rel="stylesheet" type="text/css" href="fonts/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Lista de Consolas</title>
 
 </head>
 
 <body>
   <section>
-    <h1 id='titulo'>Seleccione una consola</h1>
-    <div class="container">
-      <ul id="content">
+    <article>
+      <h1>Seleccione una consola</h1>
+      <div class="container">
+        <ul id="content">
 
-      </ul>
-      </a>
-    </div>
+        </ul>
+        </a>
+      </div>
+    </article>
   </section>
 
   <script>
@@ -35,7 +36,7 @@
 
       request.onload = function () {
         var game = request.response;
-        //console.log(game['console']);
+        // console.log(game['console']);
         mostrarConsolas(game['console']);
         addclickConsolas(game['console']);
         //clickGames();
@@ -47,11 +48,11 @@
 
         consolas.forEach(function (consola, index) {
           // crear li dentro del ul
-          var lista = crearLista(consola.id, 'game');
+          crearLista(consola.id, 'game');
           // crear cada elemento dentro del li
-          crearElemento(lista, 'img', 'img');
-          crearElemento(lista, 'p', 'name');
-          crearElemento(lista, 'p', 'descripcion');
+          crearElemento(consola.id, 'img', 'img');
+          crearElemento(consola.id, 'p', 'name');
+          crearElemento(consola.id, 'p', 'descripcion');
 
           // arreglo con todos los li de clase game que representan las consolas DOM
           var game = document.getElementsByClassName('game');
@@ -118,8 +119,7 @@
         // recorremos cada elemnto del arreglo juego
         games.forEach(function (juego, index) {
           // creamos li por cada juego dentro de ul
-          var lista = crearLista(juego.id, 'game');
-          console.log(lista);
+          crearLista(juego.id, 'game');
           // arreglo que contiene los juegos
           var game = document.getElementsByClassName('game');
           // asignamos una variable id para cada juego
@@ -128,18 +128,16 @@
             id = "0" + id;
           }
           // creamos cada elemento dentro del li
-          console.log('contenido');
-          console.log(contenido);
-          var img = crearElemento(lista, 'img', 'img');
-          var name = crearElemento(lista, 'p', 'name');
-          var favorite = crearElemento(lista, 'div', 'favorite');
+          var img = crearElemento(juego.id, 'img', 'img');
+          var name = crearElemento(juego.id, 'p', 'name');
+          var favorite = crearElemento(juego.id, 'div', 'favorite');
           favorite.setAttribute("id", "favorite_" + id);
           crearInput(favorite.id, 'checkbox', 'favorite' + id);
-          var genre = crearElemento(lista, 'p', 'genre');
-          var year = crearElemento(lista, 'p', 'year');
-          var price = crearElemento(lista, 'p', 'price');
-          var descripcion = crearElemento(lista, 'p', 'descripcion');
-
+          var genre = crearElemento(juego.id, 'p', 'genre');
+          var year = crearElemento(juego.id, 'p', 'year');
+          var price = crearElemento(juego.id, 'p', 'price');
+          var descripcion = crearElemento(juego.id, 'p', 'descripcion');
+          
           // rellenamos los datos de cada lista de juegos 
           img.src = "images/game_0" + consolaId + "_" + id + "_01.jpg";
           name.innerHTML = juego.name;
@@ -154,83 +152,51 @@
       // ---------------------------------------------------------------------------
 
       function mostrarDetallesJuego(game) {
-        // quitar css anterior game.css
         var head = document.getElementsByTagName("head")[0];
         var gamecss = document.getElementById('gamecss');
+        console.log (head);
+        console.log( gamecss);
         head.removeChild(gamecss);
-
-        // asignar nuevo css game_description.css
         CargarCSS("css/game_description.css");
-
         // vaciamos la lista ul class=game
         while (contenido.firstChild) {
           contenido.removeChild(contenido.firstChild);
         }
-
-        // borramos titulo
-        document.getElementById('titulo').remove();
-
         // creamos li para cada campo del juego
-        //dar formato 0x donde (x = id)
+        //dar formato 0x id
         var id = game.id;
         if (game.id < 10) {
           id = "0" + id;
         }
-
         //name del juego
-        var name = crearElemento(contenido, 'li', 'name'); {
-          // titulo h1 name
-          var name_titulo = crearElemento(name, 'h1', 'titulo');
-        }
-        var ratings = crearElemento(contenido, 'li', 'ratings'); {
-          // 5 span ratings          
-          var ratings_score = game.ratings[0]['score'];
-          var ratings_count = game.ratings[0]['count'];
-          var star1 = crearElemento(ratings, 'span', 'fa fa-star');
-          var star2 = crearElemento(ratings, 'span', 'fa fa-star');
-          var star3 = crearElemento(ratings, 'span', 'fa fa-star');
-          var star4 = crearElemento(ratings, 'span', 'fa fa-star');
-          var star5 = crearElemento(ratings, 'span', 'fa fa-star last');
-          // console.log ("score: " + ratings_score + " count: " + ratings_count);
-          // console.log (star1.className);
-          //asignar de acuerdo a las valoraciones
-          if (ratings_score >= 1) {
-            star1.className += ' checked';
-          }
-          if (ratings_score >= 2) {
-            star2.className += ' checked';
-          }
-          if (ratings_score >= 3) {
-            star3.className += ' checked';
-          }
-          if (ratings_score >= 4) {
-            star4.className += ' checked';
-          }
-          if (ratings_score >= 5) {
-            star5.className += ' checked';
-          }
-          // console.log(ratings);
-          // console.log(ratings.firstChild);
-          // console.log(ratings.lastChild);
-        }
-        var genre = crearElemento(contenido, 'li', 'genre');
-        var year = crearElemento(contenido, 'li', 'year');
-        var linea = crearElemento(contenido, 'li', 'linea')
-        var img = crearElemento(contenido, 'img', 'img');
-        var descripcion = crearElemento(contenido, 'li', 'descripcion'); {
-          var desc_p = crearElemento(descripcion, 'p', 'desc');
-        }
+        var name = crearElemento(contenido.id, 'h1', 'name');
+        var ratings = crearElemento(contenido.id, 'div', 'ratings');
+        var genre = crearElemento(contenido.id, 'li', 'genre');
+        var year = crearElemento(contenido.id, 'li', 'year');
+        var img = crearElemento(contenido.id, 'li', 'linea');
+        var detalle = crearElemento(contenido.id, 'img', 'img');        
+
+        // var price = contenido.getElementsByClassName('price');
+        // var descripcion = contenido.getElementsByClassName('descripcion'); 
+
+        //creamos subelementos de algunos campos
+        // asignamos id
+        ratings.setAttribute('id', "ratings_" + game.id);
+        // 5 span ratings
+        crearElemento(ratings.id, 'span', 'fa fa-star checked');
+        crearElemento(ratings.id, 'span', 'fa fa-star checked');
+        crearElemento(ratings.id, 'span', 'fa fa-star checked');
+        crearElemento(ratings.id, 'span', 'fa fa-star checked');
+        crearElemento(ratings.id, 'span', 'fa fa-star checked last');
 
         // rellenamos los datos de cada lista de juegos 
-        name_titulo.innerHTML = game.name;
-        console.log(game.ratings);
-        ratings.innerHTML += ratings_count + " Ratings";
+        name.innerHTML = game.name;
         genre.innerHTML = game.genre;
         year.innerHTML = game.year;
-        linea.innerHTML = '<hr>';
-        var path_img = "images/game_0" + consolaId + "_" + id + "_02.jpg";
-        img.src = path_img;
-        desc_p.innerHTML = game.long_description;
+        img.src = "images/game_0" + consolaId + "_" + id + "_02.jpg";
+        // price[0].innerHTML = game.price;
+        // descripcion[0].innerHTML = jugame.description;
+
       }
 
       // ---------------------------------------------------------------------------
@@ -240,18 +206,14 @@
         li.setAttribute('id', id);
         li.setAttribute('class', clase);
         contenido.appendChild(li);
-        return li;
       }
 
       // ---------------------------------------------------------------------------
 
-      function crearElemento(padre, tipo, clase) {
-        //var padre = document.getElementById(padreid);
+      function crearElemento(padreid, tipo, clase) {
+        var padre = document.getElementById(padreid);
         var elemento = document.createElement(tipo);
         elemento.setAttribute('class', clase);
-        if (clase === 'span') {
-          elemento.innerHTML = "aaaa";
-        }
         padre.appendChild(elemento);
         return elemento;
       }
@@ -277,15 +239,6 @@
         fileref.setAttribute("type", "text/css");
         fileref.setAttribute("href", css_file);
         document.getElementsByTagName("head")[0].appendChild(fileref);
-      }
-
-      // ---------------------------------------------------------------------------
-
-      function calcStars(score, count, new_score) {
-        //console.log ("score: " + score + " count: " + count + " new score: " + new_score);
-        var temp = score * count;
-        //console.log ("temp: " + temp);
-        return (temp + new_score) / (count + 1);
       }
 
       // ---------------------------------------------------------------------------

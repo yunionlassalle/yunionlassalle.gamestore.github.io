@@ -1,5 +1,8 @@
+section{
+  padding-bottom: 40px;
+}
 
-section article p {
+section p {
   padding: 1em 3em 2em 3em;
   font-size: 1.5em;
   text-align: justify;
@@ -64,3 +67,16 @@ section article p {
     border: 3px solid rgb(207, 108, 5);
   }
   
+/* RESPONSIVE */
+
+/*  less than extra small screen*/
+@media screen and (max-width: 576px) {
+
+.slider-holder{
+  height: 300px;
+}
+.image-holder{
+  height: 250px;
+}
+
+}

@@ -8,15 +8,66 @@
   <link rel="stylesheet" type="text/css" href="css/register.css">
   <link rel="stylesheet" href="fonts/style.css">
   <title>Registro</title>
+
+  <script>
+
+    function register(){
+
+      var name = document.getElementById("user").value,
+          apell = document.getElementById("apellido").value,
+          email = document.getElementById("email").value,
+          pass = document.getElementById("pass").value,
+          passconf = document.getElementById("confirm").value;
+
+      if( !isEmpty(name) && !isEmpty(apell) && !isEmpty(email) && !isEmpty(pass) &&
+          !isEmpty(passconf) ){
+        alert("Su usuario ha sido agregado satisfactoriamente");
+        window.location.href="index.html";
+      }
+      else{
+        alert("Debe rellenar todos los datos");
+      }          
+
+    }
+
+    function isEmpty(elemValue){
+      if((elemValue == "") || (elemValue == null)){
+          return true;
+      }else{
+          return false;
+      }
+    }
+
+    function validarpass(){
+      var pas1 = $("#password").val();
+      var pas2 = $("#confirm").val();
+      return (pas1 === pas2);
+    }
+  
+
+  </script>
+
 </head>
 
 <body>
   <div class="container">
+
     <h1>Ingrese los datos de registro:</h1>
-    <input type="text" name="user" id="user" required placeholder="Nombre">
-    <input type="email" id="email" name="email" placeholder="Email">
-    <input type="password" pattern="(?=^.{8,24}$)((?=.\d)|(?=.\W+))(?![.\n])(?=.[A-Z])(?=.[a-z]).*$" name="pass" id="pass" required placeholder="Contraseña">
-    <a href="index.html" class="home"><span class="icon-home"></span>Inicio</a>
+    </form>
+    <input type="text" name="user" id="user" required max=30 placeholder="Nombre">
+    <input type="text" name="apellido" id="apellido" required max=30 placeholder="Apellido">
+    <input type="email" id="email" name="email" required placeholder="Email">
+    <input type="password" pattern="(?=^.{8,24}$)((?=.\d)|(?=.\W+))(?![.\n])(?=.[A-Z])(?=.[a-z]).*$" name="pass" id="pass"
+      required placeholder="Contraseña">
+    <input type="confirm" pattern="(?=^.{8,24}$)((?=.\d)|(?=.\W+))(?![.\n])(?=.[A-Z])(?=.[a-z]).*$" name="confirm" id="confirm"
+      required placeholder="Confirmar Contraseña">
+
+    <div class="botones">
+      <a href="index.html" class="btn"><span class="icon-home"></span>Inicio</a>
+      <a href="javascript:register()" class="btn"><span class="icon-user-plus"></span>Aceptar</a>
+    </div>
+    </form>
+
   </div>
 </body>
 

@@ -16,7 +16,7 @@ body {
 }
 
 section {
-  height: 800px;
+  height: 550px;
   padding: 20px;
   background-image: url("../images/background_06.jpg");
   background-repeat: no-repeat;
@@ -69,4 +69,27 @@ input[type=button]:hover {
 
 input[type=button]:focus {
   outline: none;
+}
+
+/* RESPONSIVE*/
+
+/* less than small screen */
+@media screen and (max-width: 992px) {}
+
+/* less than small screen */
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 60%;
+  }
+
+}
+
+/*  less than extra small screen*/
+@media screen and (max-width: 576px) {
+
+  .container {
+    width: 80%;
+  }
+
 }
