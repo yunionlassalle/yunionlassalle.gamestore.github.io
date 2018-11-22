@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Backpanel</title>
+</head>
+<style>
+    .tabla {
+        display: flex;
+        flex-direction: column;
+        /* turn children ul elements into stacked rows */
+        background: #f0f0f0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .tabla ul {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+        /* turn children li elements into flex children */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tabla ul li {
+        flex: 1 150px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background: #c9f4ca;
+        list-style: none;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+</style>
+<script>
+    var users = JSON.parse(localStorage.getItem('usuarios'));
+    console.log(users);
+
+    function mostrarUsuarios() {
+        document.getElementById('titulo').innerHTML = "Lista de Usuarios";
+
+        // div id="tabla"
+        var tabla = document.getElementById('tabla');
+
+        users.forEach(function (user) {
+            console.log(user);
+            var lista = document.createElement('ul');
+            tabla.appendChild(lista);
+
+            var nombre = document.createElement('li');
+            lista.appendChild(nombre);
+            var apellido = document.createElement('li');
+            lista.appendChild(apellido);
+            var email = document.createElement('li');
+            lista.appendChild(email);
+            var password = document.createElement('li');
+            lista.appendChild(password);
+
+            nombre.innerHTML = user.name;
+            apellido.innerHTML = user.lastname;
+            email.innerHTML = user.email;
+            password.innerHTML = user.password;
+
+        });
+        //document.getElementById('users').innerHTML = JSON.stringify(users);
+    }
+
+    function borrarUsuarios() {
+        localStorage.clear();
+        while (ul.firstChild) {
+            ul.removeChild(ul.firstChild);
+        }
+    }
+</script>
+
+<body>
+    <h1 id='titulo'>User Data</h1> <br>
+
+    <div id="tabla" class="tabla">
+        <ul>
+            <li><strong>Nombre</strong></li>
+            <li><strong>Apellido</strong></li>
+            <li><strong>Email</strong></li>
+            <li><strong>Password</strong></li>
+        </ul>
+
+    </div>
+    <button onclick="mostrarUsuarios()">Mostrar Usuarios</button>
+    <button onclick="borrarUsuarios()">Borrar Usuarios</button>
+</body>
+
+</html>
